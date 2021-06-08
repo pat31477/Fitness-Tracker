@@ -26,7 +26,7 @@ module.exports = function(app) {
             res.status(400).json(err);
           });
       });
-      // App.put to update the workouts by MongoDB _id value as well as update the exercise body
+      // App.put to update the workouts as well as update the exercise body
       app.put("/api/workouts/:id", (req, res) => {
         db.Workout.findByIdAndUpdate(
           { _id: req.params.id }, { exercises: req.body }
