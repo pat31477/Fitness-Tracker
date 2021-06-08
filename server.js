@@ -13,7 +13,7 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
   useNewUrlParser: true,
-  useFindAndModify: False
+  useFindAndModify: false
 });
 
 require("./routes/htmlroutes")(app);
