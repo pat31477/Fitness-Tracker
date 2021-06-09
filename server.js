@@ -11,6 +11,8 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
+app.use(require('./controllers/apiroutes'));
+app.use(require('./controllers/htmlRoutes'));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
   useNewUrlParser: true,
@@ -19,8 +21,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker"
   useFindAndModify: false
 });
 
-require("./routes/htmlroutes")(app);
-require("./routes/apiroutes")(app);
+//require("./routes/htmlroutes")(app);
+//require("./routes/apiroutes")(app);
 
 app.listen(PORT, () => {
   console.log(`App now running on port ${PORT}!`);
