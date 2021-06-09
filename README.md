@@ -1,6 +1,14 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Unit 17 Nosql Homework: Fitness-Tracker
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License%3A-MIT-green.svg)
+
+Built in collaboration with: 
+
+[![GitHub](https://img.shields.io/badge/Gabe%20Thomas-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/samohtebag)
+
+[![GitHub](https://img.shields.io/badge/Jason%20Barbanel-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/Jbarbss)
+
+[![GitHub](https://img.shields.io/badge/Steven%20Paul-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/etown285)
 
 ## User Story
 
@@ -8,7 +16,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 ## Business Context
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+* A consumer will reach their fitness goals more quickly when they track their workout progress.
 
 ## Acceptance Criteria
 
@@ -30,43 +38,69 @@ A consumer will reach their fitness goals more quickly when they track their wor
 -   [Usage](#usage)
 -   [Credits](#credits)
 -   [License](#license)
--   [Contributing](#contributing)
+-   [Contributing and Connecting](#contributing)
 -   [Questions](#questions)
 
 ## Installation
 
 To install this application, you can clone the repo to your local machine or copy the code. Then, you will need to install the required node dependencies which can be done by running the npm install command in your terminal.
 
-After the dependencies have been installed, you will need to populate your MongoDB database by uncommenting the required seed file or by running NPM Run Seed. Once filled in, you can start the server and use the program
+After the dependencies have been installed, you will need to populate your MongoDB database by running 'NPM RUN SEED'. Once this is completed, you can start the server by running 'NODE SERVER.JS' and use the application
 
 ## Usage
 
-Once everything has been set up, the application can be launched by running the command node server.js or npm start. You will then need to visit the local host URL for the port that you have set up for this application. Once loaded in the browser, you can either click the dashboard page to view the
-workout stats on the graphs provided or add/contnue a workout by clicking the buttons to add or update a new workout on the home page. When adding a new workout, ensure to click complete once you have filled everything in as if you click add exercise, then it will add a blank instance of a workout
-with 0 for the numbers and no string for the title/name area.
+You will then need to go to the local host URL for the port that you have specified. Once loaded in the browser, you can click the dashboard page to view the workout stats on the graphs provided. You can add/contnue a workout by clicking the buttons to add or update a new workout on the home page. When adding a new workout, be sure to click complete once you have entered your data.
 
 ## Credits
 
-This application was completed by Jeff Quittman as a project for UCLA/Trilogy's Full Stack Software Development Bootcamp.
+-Dependencies for this project include the node modules:
 
-Dependencies for this project include the node modules:
+-Express: handles the setup of the node server
 
--Express: for setting up the node server
+-Mongoose: handles the modules for MongoDB
 
--Mongoose for setting up the models for MongoDB
-
--Morgan for adding the http request logger
+-Morgan: handles the http request logger
 
 ## License
 
+![License](https://img.shields.io/badge/License%3A-MIT-green.svg)
+
+Copyright (c) 2021 Patrick Walker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
     
 
-## Contributing
+## Contributing and Connecting
+Huge Thank you to Gabe Thomas, Jason Barbanel, and Steven Paul for all of their help, guidance, assistance and for keeping me focused and calm when it wasn't going smoothly.
 
-If you would like to contribute to this application, please feel free to email me via the email found in the questions section and we can discuss how to collaborate and enhance this application
+
+ [![GitHub](https://img.shields.io/badge/Gabe%20Thomas-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/samohtebag)
+
+  [![GitHub](https://img.shields.io/badge/Jason%20Barbanel-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/Jbarbss)
+
+  [![GitHub](https://img.shields.io/badge/Steven%20Paul-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/etown285)
+
+  Massive THANK YOU to Kieran Anderson (T/A) for all of the help getting this working and for being so patient and understanding while I worked though this.
 
 ## Questions
 
--   For any questions related to this applicaiton, please contact me at: pat31477@yahoo.com.
+ Please email me with any question regarding this project @ pat31477@yahoo.com and connect with me on Github and LinkedIn. 
 
--   Please use this link to access my Github Profile: [https://github.com/pat31477](https://github.com/pat31477)
+  [![GitHub](https://img.shields.io/badge/Patrick%20Walker-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/pat31477) 
+  [![LinkedIn](https://img.shields.io/badge/Patrick%20Walker%20LinkedIn-Click%20Me!-grey?style=plastic&logo=LinkedIn&labelColor=blue)](https://www.linkedin.com/in/patrick-walker-926a35189/)
