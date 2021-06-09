@@ -43,7 +43,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 -   [Installation](#installation)
 -   [Usage](#usage)
 -   [Deployment](#deployment)
--   [Credits](#credits)
+-   [Tech Used](#techused)
 -   [License](#license)
 -   [Contributing and Connecting](#contributing)
 -   [Questions](#questions)
@@ -67,7 +67,7 @@ Heroku: https://aqueous-island-88548.herokuapp.com/
 
 
 
-## Credits
+## Tech Used
 
 -Dependencies for this project include the node modules:
 
