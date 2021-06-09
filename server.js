@@ -1,7 +1,7 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-//require("./seeders/seed");//
+//require("./seeders/seed");
 
 const PORT = process.env.PORT || 3001;
 
@@ -11,8 +11,6 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-app.use(require('./apiroutes'));
-app.use(require('./htmlRoutes'));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
   useNewUrlParser: true,
@@ -21,8 +19,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker"
   useFindAndModify: false
 });
 
-//require("./routes/htmlroutes")(app);
-//require("./routes/apiroutes")(app);
+require("./routes/htmlroutes")(app);
+require("./routes/apiroutes")(app);
 
 app.listen(PORT, () => {
   console.log(`App now running on port ${PORT}!`);
