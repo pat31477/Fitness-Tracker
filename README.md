@@ -36,6 +36,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 
 -   [Installation](#installation)
 -   [Usage](#usage)
+-   [Deployment](#deployment)
 -   [Credits](#credits)
 -   [License](#license)
 -   [Contributing and Connecting](#contributing)
@@ -50,6 +51,15 @@ After the dependencies have been installed, you will need to populate your Mongo
 ## Usage
 
 You will then need to go to the local host URL for the port that you have specified. Once loaded in the browser, you can click the dashboard page to view the workout stats on the graphs provided. You can add/contnue a workout by clicking the buttons to add or update a new workout on the home page. When adding a new workout, be sure to click complete once you have entered your data.
+
+## Deployment
+ Readme (web view): https://pat31477.github.io/Fitness-Tracker/
+
+Github Repo: https://github.com/pat31477/Fitness-Tracker
+
+Heroku: https://aqueous-island-88548.herokuapp.com/
+
+
 
 ## Credits
 
